@@ -18,7 +18,7 @@ int main() {
 
 	for (int i = 0; i < MATRIX_SIZE; i++) {
 		for (int j = 0; j < MATRIX_SIZE; j++) {
-			const int r = (rand() % MAX_RANGE * 2) + MIN_RANGE;
+			const int r = (rand() % MAX_RANGE * 3) + MIN_RANGE;
 			matrix[i][j] = r;
 			printf("%4d ", r);
 			if (r > max) {
@@ -50,3 +50,4 @@ int main() {
 
 	return 0;
 }
+Я изменила этот файл
